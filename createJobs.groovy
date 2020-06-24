@@ -7,13 +7,13 @@ pipelineJob('pipelineJob') {
     }
 }
 
-pipelineJob('theme-park-job') {
+pipelineJob('web-flux-app') {
     definition {
         cpsScm {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/hanane92/spring-api.git'
+                        url 'https://github.com/hanane92/web-flux-spring-boot.git'
                     }
                     branch 'master'
                 }
